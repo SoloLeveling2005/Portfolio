@@ -1,0 +1,23 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+.menu-elem {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.menu-elem:hover {
+    opacity: 1;
+}
+
+.opacity-1 {
+    opacity: 1 !important;
+}

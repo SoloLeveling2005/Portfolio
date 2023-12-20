@@ -1,0 +1,40 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.header {
+    background-color: #018b58;
+}
+
+
+.header-elem {
+    cursor: pointer;
+    padding: 5px 30px;
+    width: max-content;
+    border-radius: 10px 10px 0  0;
+    background-color: #009c74;
+    transition: .5s;
+    height: 35px;
+}
+.header-elem:hover {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.active {
+    background-color:white !important;
+}
+.active:hover {
+    background-color: white !important;
+}
+
+
+.content {
+    width: 100%;
+    height: calc(100vh - 45px);
+}
+
