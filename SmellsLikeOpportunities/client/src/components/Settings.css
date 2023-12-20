@@ -1,0 +1,43 @@
+:root {
+    --background-bg:#0e1621;
+    --tab-chat-bg:#17212b;
+    --tab-chat-bg-hover:#202b36;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+* {
+    font-family: "Calibri Light", serif;
+}
+.App {
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-color: var(--background-bg);
+    color: white;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.card {
+    height: min-content;
+    width: 98vw;
+
+}
+
+.tab-chat-bg {
+    background-color: var(--tab-chat-bg) !important;
+}
